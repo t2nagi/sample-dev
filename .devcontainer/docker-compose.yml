@@ -1,0 +1,6 @@
+services:
+  dev:
+    image: node
+    volumes:
+      - .:/work
+    command: /bin/sh -c "while :; do sleep 10; done"

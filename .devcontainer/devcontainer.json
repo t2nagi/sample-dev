@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "sample-dev",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+
+	"service": "dev",
+	"workspaceFolder": "/work",
+	"remoteUser": "root"
+}
